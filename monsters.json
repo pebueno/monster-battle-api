@@ -1,0 +1,53 @@
+[
+    {
+      "id": "monster-1",
+      "name": "Cthulhu",
+      "attack": 90,
+      "defense": 70,
+      "hp": 100,
+      "speed": 50,
+      "type": "Eldritch Horror",
+      "imageUrl": "https://example.com/cthulhu.jpg"
+    },
+    {
+      "id": "monster-2",
+      "name": "Nyarlathotep",
+      "attack": 80,
+      "defense": 60,
+      "hp": 120,
+      "speed": 70,
+      "type": "Outer God",
+      "imageUrl": "https://example.com/nyarlathotep.jpg"
+    },
+    {
+      "id": "monster-3",
+      "name": "Shub-Niggurath",
+      "attack": 70,
+      "defense": 80,
+      "hp": 150,
+      "speed": 40,
+      "type": "Outer God",
+      "imageUrl": "https://example.com/shub-niggurath.jpg"
+    },
+    {
+      "id": "monster-4",
+      "name": "Azathoth",
+      "attack": 100,
+      "defense": 50,
+      "hp": 200,
+      "speed": 30,
+      "type": "Outer God",
+      "imageUrl": "https://example.com/azathoth.jpg"
+    },
+    {
+      "id": "monster-5",
+      "name": "Yog-Sothoth",
+      "attack": 85,
+      "defense": 65,
+      "hp": 180,
+      "speed": 60,
+      "type": "Eldritch Being",
+      "imageUrl": "https://example.com/yog-sothoth.jpg"
+    }
+  ]
+  
