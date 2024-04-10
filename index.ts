@@ -28,28 +28,35 @@ app.get('/monsters', (req: Request, res: Response) => {
 });
 
 // Endpoint to start battle (mocked)
-// Endpoint to start battle (mocked)
 app.post('/battle', (req: Request, res: Response) => {
-  // Mock battle logic
   const { monster1Id, monster2Id } = req.body;
-  const monster1 = monsters.find(monster => monster.id === monster1Id);
-  const monster2 = monsters.find(monster => monster.id === monster2Id);
-  
-  // Check if both monsters exist
-  if (!monster1 || !monster2) {
-    return res.status(400).json({ error: 'Invalid monster IDs' });
+  const playerMonster = monsters.find(monster => monster.id === monster1Id);
+  const computerMonster = monsters.find(monster => monster.id === monster2Id);
+
+  // Check if player's monster exists
+  if (!playerMonster) {
+    return res.status(400).json({ error: 'Invalid player monster ID' });
   }
 
-  // Determine the winner
+  // Check if computer's monster exists
+  if (!computerMonster) {
+    return res.status(400).json({ error: 'Invalid computer monster ID' });
+  }
+
+  // Calculate the battle outcome based on monster stats
+  const playerTotalStats = playerMonster.attack + playerMonster.defense + playerMonster.hp + playerMonster.speed;
+  const computerTotalStats = computerMonster.attack + computerMonster.defense + computerMonster.hp + computerMonster.speed;
+
   let winner;
-  if (Math.random() < 0.5) {
-    winner = monster1;
-  } else {
-    winner = monster2;
-  }
+  let tie = false;
 
-  // Check for tie
-  const tie = monster1.id === monster2.id;
+  if (playerTotalStats > computerTotalStats) {
+    winner = playerMonster;
+  } else if (playerTotalStats < computerTotalStats) {
+    winner = computerMonster;
+  } else {
+    tie = true;
+  }
 
   // Construct the battle result object
   const battleResult = { winner, tie };
@@ -60,5 +67,5 @@ app.post('/battle', (req: Request, res: Response) => {
 
 // Run server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });

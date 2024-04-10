@@ -1,53 +1,52 @@
 [
-    {
-      "id": "monster-1",
-      "name": "Cthulhu",
-      "attack": 90,
-      "defense": 70,
-      "hp": 100,
-      "speed": 50,
-      "type": "Eldritch Horror",
-      "imageUrl": "https://example.com/cthulhu.jpg"
-    },
-    {
-      "id": "monster-2",
-      "name": "Nyarlathotep",
-      "attack": 80,
-      "defense": 60,
-      "hp": 120,
-      "speed": 70,
-      "type": "Outer God",
-      "imageUrl": "https://example.com/nyarlathotep.jpg"
-    },
-    {
-      "id": "monster-3",
-      "name": "Shub-Niggurath",
-      "attack": 70,
-      "defense": 80,
-      "hp": 150,
-      "speed": 40,
-      "type": "Outer God",
-      "imageUrl": "https://example.com/shub-niggurath.jpg"
-    },
-    {
-      "id": "monster-4",
-      "name": "Azathoth",
-      "attack": 100,
-      "defense": 50,
-      "hp": 200,
-      "speed": 30,
-      "type": "Outer God",
-      "imageUrl": "https://example.com/azathoth.jpg"
-    },
-    {
-      "id": "monster-5",
-      "name": "Yog-Sothoth",
-      "attack": 85,
-      "defense": 65,
-      "hp": 180,
-      "speed": 60,
-      "type": "Eldritch Being",
-      "imageUrl": "https://example.com/yog-sothoth.jpg"
-    }
-  ]
-  
+  {
+    "id": "monster-1",
+    "name": "Sentinel of Carnholt",
+    "attack": 90,
+    "defense": 70,
+    "hp": 100,
+    "speed": 50,
+    "type": "Eldritch Horror",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c261afbb-1184-467a-afaf-f412e9368190/de2yb9r-916fcad1-5559-46f8-bd47-069db71b9831.png/v1/fill/w_1192,h_670/the_sentinel_of_carnholt_by_istrandar_de2yb9r-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYzI2MWFmYmItMTE4NC00NjdhLWFmYWYtZjQxMmU5MzY4MTkwXC9kZTJ5YjlyLTkxNmZjYWQxLTU1NTktNDZmOC1iZDQ3LTA2OWRiNzFiOTgzMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.T3TEYoFJeJcmzPHee0uMoUNyZvjF7Yk4-tDk3jSP2g8"
+  },
+  {
+    "id": "monster-2",
+    "name": "Alien",
+    "attack": 80,
+    "defense": 60,
+    "hp": 120,
+    "speed": 70,
+    "type": "Outer God",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3734ea1f-f4c6-4cd7-b903-70f728805c2f/deo50z0-0d06998d-9adb-4827-b6b2-f0b0d3d17bca.jpg/v1/fill/w_1078,h_741,q_70,strp/the_tomorrow_war___alien_design_by_kenbarthelmey_deo50z0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODgwIiwicGF0aCI6IlwvZlwvMzczNGVhMWYtZjRjNi00Y2Q3LWI5MDMtNzBmNzI4ODA1YzJmXC9kZW81MHowLTBkMDY5OThkLTlhZGItNDgyNy1iNmIyLWYwYjBkM2QxN2JjYS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.cA0Lfm2QUxyfJEXvvBJt2F0p0oCdSFGUqF4OT4g5lTM"
+  },
+  {
+    "id": "monster-3",
+    "name": "Valley Colossus",
+    "attack": 70,
+    "defense": 80,
+    "hp": 150,
+    "speed": 40,
+    "type": "Outer God",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12b7435b-834e-4e38-a246-9e5bc39d2b66/dedj4ht-2df64963-759f-41b2-be03-035c19f22bff.png/v1/fill/w_900,h_633,q_80,strp/fear_of_the_valley_by_mikakoskart_dedj4ht-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjMzIiwicGF0aCI6IlwvZlwvMTJiNzQzNWItODM0ZS00ZTM4LWEyNDYtOWU1YmMzOWQyYjY2XC9kZWRqNGh0LTJkZjY0OTYzLTc1OWYtNDFiMi1iZTAzLTAzNWMxOWYyMmJmZi5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DvtEL9EiU4A5jZZ5ZK8rQO6yO2dteJZjsu42RimHv6k"
+  },
+  {
+    "id": "monster-4",
+    "name": "Flying Disgrace",
+    "attack": 100,
+    "defense": 50,
+    "hp": 200,
+    "speed": 30,
+    "type": "Outer God",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/918578eb-1cd2-494b-a4cf-549d6c9a7ceb/ddw9w14-3437344e-3bc5-4165-a34e-887d6078b6e5.jpg/v1/fill/w_985,h_811,q_70,strp/the_silent_awakening_by_morkardfc_ddw9w14-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQzIiwicGF0aCI6IlwvZlwvOTE4NTc4ZWItMWNkMi00OTRiLWE0Y2YtNTQ5ZDZjOWE3Y2ViXC9kZHc5dzE0LTM0MzczNDRlLTNiYzUtNDE2NS1hMzRlLTg4N2Q2MDc4YjZlNS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sd4nohTEVql0mgcQCE2TriU4VV8HG1GEvqZvr8-o4gw"
+  },
+  {
+    "id": "monster-5",
+    "name": "The Wechuge",
+    "attack": 85,
+    "defense": 65,
+    "hp": 180,
+    "speed": 60,
+    "type": "Eldritch Being",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/31a92255-861d-40f4-ad78-a2efd309b0d2/deyzmf0-9b0a26e3-bb86-496b-b9f6-be80b7833999.jpg/v1/fill/w_1181,h_677,q_70,strp/the_wechuge_by_sandara_deyzmf0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAzIiwicGF0aCI6IlwvZlwvMzFhOTIyNTUtODYxZC00MGY0LWFkNzgtYTJlZmQzMDliMGQyXC9kZXl6bWYwLTliMGEyNmUzLWJiODYtNDk2Yi1iOWY2LWJlODBiNzgzMzk5OS5qcGciLCJ3aWR0aCI6Ijw9MTQwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sd4nohTEVql0mgcQCE2TriU4VV8HG1GEvqZvr8-o4gw"
+  }
+]
